@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from '../../images/logo.png';
+import background from '../../images/Bg.png';
 
 const Header = () => {
     return (
-        <div className='header'>
-            <img src={image} alt=""/>
+        <div style={{ backgroundImage:`url(${background})` }} className="background">
             <nav className='navMenu'>
                 <div className='logo'>
                 <img src={logo} alt=""/>

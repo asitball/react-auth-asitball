@@ -1,8 +1,11 @@
 .navMenu{
     margin-left: 200px;
 }
-.header{
-    background-image: url("../../images/Bg.png");
+.background{
+    height: 300px;
+    background-position: center center;
+    width: 100%;
+    height: 600px;
 }
 .logo img{
     height: 30px;
