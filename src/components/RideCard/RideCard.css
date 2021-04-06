@@ -1,0 +1,15 @@
+.ride-data img{
+    width:100%;
+}
+.ride-data{
+    border: 1px solid red;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color:white;
+
+}
+.ride-data h1{
+    text-align: center;
+    color:rgb(88, 86, 86);
+}

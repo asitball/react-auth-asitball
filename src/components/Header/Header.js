@@ -6,7 +6,7 @@ import background from '../../images/Bg.png';
 
 const Header = () => {
     return (
-        <div style={{ backgroundImage:`url(${background})` }} className="background">
+        <div style={{ backgroundImage:`url(${background})`}} className="background">
             <nav className='navMenu'>
                 <div className='logo'>
                 <img src={logo} alt=""/>
@@ -15,6 +15,7 @@ const Header = () => {
                <ul>
                    <li> <Link to="/home">Home</Link></li>
                    <li> <Link to="/destination">Destination</Link></li>
+                   <li> <Link to="/login">Login</Link></li>
                </ul>
                </div>
             </nav>

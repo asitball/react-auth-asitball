@@ -10,6 +10,7 @@ import {
 import Home from './components/Home/Home';
 import Destination from './components/Destination/Destination';
 import NoMatch from './components/NoMatch/NoMatch';
+import Login from './components/Login/Login';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path='/destination'> 
             <Destination></Destination>
+          </Route>
+          <Route path='/login'>
+            <Login></Login>
           </Route>
           <Route exact path='/'>
             <Home></Home>
