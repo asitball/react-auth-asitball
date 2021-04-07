@@ -21,7 +21,7 @@ function App() {
           <Route path='/home'>
             <Home></Home>
           </Route>
-          <Route path='/destination'> 
+          <Route path='/destination/:pickType'> 
             <Destination></Destination>
           </Route>
           <Route path='/login'>
