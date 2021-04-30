@@ -11,7 +11,7 @@ const Ride = (props) => {
         <div className='ride-data'>
             <img src={image} alt=""/>
             <h1>{rideType}</h1>
-            <button onClick={()=>handleRideClick(rideType)}>Pick</button>
+            <button className="btn btn-primary" onClick={()=>handleRideClick(rideType)}>Pick</button>
         </div>
     );
 };

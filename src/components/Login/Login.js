@@ -34,7 +34,7 @@ const Login = () => {
         <div>
             
             <h4>This is a login page</h4>
-            <button onClick={handleGoogleSignIn}>Google Sing in</button>
+            <button className="btn btn-light" onClick={handleGoogleSignIn}>Google Sing in</button>
         </div>
     );
 };
