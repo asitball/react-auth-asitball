@@ -1,14 +1,14 @@
 
 [{
-    "ride_name": "Bike",
+    "rideType": "Bike",
     "image": "https://i.ibb.co/60m6Ykr/Frame.png"
 },{
-    "ride_name": "Car",
+    "rideType": "Car",
     "image": "https://i.ibb.co/CQqd9nC/Frame-2.png"
 },{
-    "ride_name": "Bus",
+    "rideType": "Bus",
     "image": "https://i.ibb.co/qWrxQgm/Frame-1.png"
 },{
-    "ride_name": "Train",
+    "rideType": "Train",
     "image": "https://i.ibb.co/sj8m3CX/Group.png"
 }]

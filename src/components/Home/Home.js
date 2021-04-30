@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import rideData from '../../data/data.json';
-import RideCard from '../RideCard/RideCard';
+import Ride from '../Ride/Ride';
 import './Home.css';
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div className='card-container'>
            {
-               rideData.map(ride =><RideCard key={ride.pickType} ride={ride}></RideCard>)
+               rideData.map(ride =><Ride key={ride.pickType} ride={ride}></Ride>)
            }
           
         </div>
