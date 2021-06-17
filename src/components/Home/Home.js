@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div className='card-container'>
            {
-               rideData.map(ride =><Ride key={ride.pickType} ride={ride}></Ride>)
+               rideData.map(ride =><Ride key={ride.id} ride={ride}></Ride>)
            }
           
         </div>
