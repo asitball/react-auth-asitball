@@ -26,7 +26,7 @@ function App() {
             <Home></Home>
           </Route>
           <PrivateRoute path='/pick/:id'>
-            <Pick></Pick>
+            <Login></Login>
           </PrivateRoute>
           <Route path='/login'> 
             <Login></Login>

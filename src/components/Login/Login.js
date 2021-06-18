@@ -26,34 +26,10 @@ const Login = () => {
     history.replace(from);
   })
     }
-
-    const handleGitHub = () => {
-  var ghProvider = new firebase.auth.GithubAuthProvider();
-
-      firebase
-          .auth()
-          .signInWithPopup(ghProvider)
-          .then((result) => {
-              var { displayName, email } = result.user;
-              const signedWithGitHub = { displayName, email };
-              setLoggedInUser(signedWithGitHub);
-              history.replace(from);
-
-          }).catch((error) => {
-              var errorMessage = error.message;
-              console.log(errorMessage);
-
-          });
-  }
-    
-
     return (
         <div>
             
-            <h4>This is a login page</h4>
-            <button className="btn btn-light" onClick={handleGoogleSignIn}>Google Sing in</button>
-            <button className="btn btn-light" onClick={handleGitHub}>Github Sing in</button>
-
+            <button className="btn btn-primary" onClick={handleGoogleSignIn}>Google Sing in</button>
         </div>
     );
 };
